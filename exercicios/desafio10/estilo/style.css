@@ -67,12 +67,12 @@ header > p{
 }
 nav{
     background-color: var(--cor5);
-    padding: 6px;
+    padding: 10px;
     box-shadow: 0px 7px 7px rgb(0, 0, 0, 0.363);
 }
 nav > a{ 
 
-    padding: 6px;
+    padding: 2px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
