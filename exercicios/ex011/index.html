@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagem Dinamicas</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imaagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imaagens/foto-m.png" type="image/png">
+        <img src="imaagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a Reproduzir audios</p>
+    <!-- <audio src="midia/flafla.mp3" controls autoplay></audio> -->
+    
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/flafla.mp3" type="audio/mpeg">
+        <source src="midia/flafla.ogg" type="audio/ogg">
+        <source src="midia/flafla.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador nao consegue carregar audios. Clique aqui para ir para o <a href="https://www.google.com">Google</a> </p>
+    </audio>
+    <p><p>Infelizmente o seu navegador nao consegue carregar audios. Clique aqui para ir para o <a href="www.google.com">Google</a> </p></p>
+</body>
+</html>

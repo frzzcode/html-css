@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a::after{
+            content: ' [link] ';
+            text-decoration: none;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesonalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/frzzcode" target="_blank" >Repositorio GitHub</a></li>
+        <li>Canal Youtube</li>
+        <li>Instagram</li>
+    </ul>
+</body>
+</html>
